@@ -1,0 +1,14 @@
+{
+  "name": "gplay",
+  "version": "1.0.0",
+  "description": "asdf",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "google-play-scraper": "^9.1.1"
+  }
+}
