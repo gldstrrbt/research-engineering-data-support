@@ -1,7 +1,17 @@
-# App-market research automation
+# App-Market Research Automation
 
-Recovered Python/JavaScript utilities for Google Play review/data collection and Similarweb app-market research workflows.
+Recovered Python and JavaScript utilities I built for mobile-app research workflows.
 
-The original working archive also contained very large CSV exports and local research datasets; those are intentionally omitted. Embedded historical credentials were removed or replaced with placeholders before archival.
+The code covers:
+- Google Play metadata, reviews, permissions, developer info, and data-safety collection
+- Similarweb API and browser-driven data acquisition
+- spreadsheet / JSON cleanup and normalization
+- historical app-store research workflows and supporting utilities
 
-This is preserved as historical research-engineering work and may depend on APIs or page structures that have since changed.
+This was working research code, not a packaged product. Some APIs, selectors, and dependencies are old and will need changes to run today.
+
+## Public archive cleanup
+
+Credentials, cookies, large exports, private research datasets, and machine-specific files are excluded. Any credential fields left in the source are placeholders only.
+
+The point of this archive is the automation and data-engineering work itself: taking repetitive research tasks that would have been miserable to do manually and turning them into repeatable scripts.
